@@ -1,0 +1,50 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "LoginPage",
+    "line": 1,
+    "id": "loginpage",
+    "tags": [],
+    "uri": "LoginCases.feature",
+    "elements": [
+      {
+        "id": "loginpage;checking-login-page-opens-successfully",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Checking Login Page Opens Successfully",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Trendyol.com website is up and working",
+            "result": {
+              "status": "undefined",
+              "duration": 101000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User Clicks 'Giriş Yap' Button at Top-Right of the Website",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Login Page Opens Successfully",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
